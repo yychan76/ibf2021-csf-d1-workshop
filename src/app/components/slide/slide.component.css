@@ -1,0 +1,6 @@
+.slide {
+  border: 1px solid gray;
+  border-radius: 12px;
+  margin: 1em;
+  height: 60vh;
+}

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'demoproj';
+  title: string = 'My First Angular Project';
+  visible: boolean = false;
+
+  toggleSlidesView() {
+    this.visible = !this.visible;
+  }
 }
